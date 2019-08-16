@@ -5,7 +5,7 @@ Elliot S. Menkah (elliotsmenkah@gmail.com) <br>
 ### CODATA 2019 : Introduction to Python programming 
 
 .. code::    
-.. Lesson1: (https://github.com/emenkah/python_lessons/tree/master/01_interpreter/README.md)
+.. [Lesson1:] (https://github.com/emenkah/python_lessons/tree/master/01_interpreter/README.md)
 
 
 

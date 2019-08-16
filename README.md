@@ -168,7 +168,7 @@ module to the current namespace (so that we don't need to use the prefix
 `>>> print(x)` <br>
 
 ### Importing with 'from'
-You can chose to import only a few selected symbols from a module by explicitly listing which ones we want to import instead of using the wildcard character ***** to import every symbol
+You can chose to import only a few selected symbols from a module by explicitly listing which ones we want to import instead of using the wildcard character * to import every symbol
 
 `>>> from math import <symbol>` # **from math import** "functions and variables" lets you import only certain functions and variables that you need <br>
 

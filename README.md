@@ -130,3 +130,36 @@ i = 0 <br>
 `>>> while i < 3`: <br>
 `...     i = i + 1` <br>
 `...     print(z[i])`<br>
+
+## Modules
+
+There are enormous libraries in python that can be imported to use rather than having to build your own. This make life much easier.
+
+**`math`** is one of many libraries that requires that you import in order to use it.
+
+### Importing with 'import'
+
+`>>> import math` # This imports all symbols(functions and variables) in the module into the current namespace.
+
+### Looking at what a module contains, and its documentation  <br>
+
+#### Funtions and variables: <br>
+Once a module is imported, you can list the symbols it provides using the `dir`
+function : <br>
+
+`>>> print(dir(math))` 
+
+`['__doc__', '__loader__', '__name__', '__package__', '__spec__', 'acos', 'acosh', 'asin', 'asinh', 'atan', 'atan2', 'atanh', 'ceil', 'copysign', 'cos', 'cosh', 'degrees', 'e', 'erf', 'erfc', 'exp', 'expm1', 'fabs', 'factorial', 'floor', 'fmod', 'frexp', 'fsum', 'gamma', 'gcd', 'hypot', 'inf', 'isclose', 'isfinite', 'isinf', 'isnan', 'ldexp', 'lgamma', 'log', 'log10', 'log1p', 'log2', 'modf', 'nan', 'pi', 'pow', 'radians', 'sin', 'sinh', 'sqrt', 'tan', 'tanh', 'trunc']`
+
+<br>
+#### Documentation: <br>
+You can also query look at the the module's documentations or a symbol's documentation using the `help`
+function : <br>
+`>>> help(math)` <br>
+`>>> help(math.log)` <br>
+
+We can chose to import all symbols (functions and variables) in a
+module to the current namespace (so that we don't need to use the prefix
+"`math.`" every time we use something from the `math` module:
+
+

@@ -68,3 +68,30 @@ You can close the intepreter or leave the python environemt by the `exit` comman
 `>>> print(var1, var2, var3 )` <br>
 `(5.2, 'hello', True)` <br>
 
+
+### List, tuples and loops:
+
+
+
+
+`>>> y = ["Hey", "you", 5, 8.7]` # <span style="color:blue">List</span> <br>
+<br>
+`>>> x = ("hello", "hi", "you")`  # <span style="color:green">Tuple</span> ( It's an immutable <span style="color:blue">List</span> ) <br>
+same as:
+`>>> x = "hello", "hi", "you"` <br>
+
+`>>> z = [2, 3, 4, 5, 6]` <br>
+
+`>>> print(type(x))` <br>
+`<type 'tuple'>` <br>
+`>>> print(type(y))` <br>
+`<type 'list'>`
+
+
+Memory locations for storing data in list and tuples are indexed so one could access data stored in a specific memory loactions: **NB**: By default, index locations begin from zero (0)
+
+`>>> num0 = z[0]` <br>
+`>>> print(num)` <br>
+2
+
+

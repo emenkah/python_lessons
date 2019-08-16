@@ -162,4 +162,22 @@ We can chose to import all symbols (functions and variables) in a
 module to the current namespace (so that we don't need to use the prefix
 "`math.`" every time we use something from the `math` module:
 
+### Using imported functions or variables
 
+`>>> x = cos(2 * pi)` <br>
+`>>> print(x)` <br>
+
+### Importing with 'from'
+You can chose to import only a few selected symbols from a module by explicitly listing which ones we want to import instead of using the wildcard character ***** to import every symbol
+
+`>>> from math import <symbol>` # **from math import** "functions and variables" lets you import only certain functions and variables that you need <br>
+
+**Eg.**<br>
+`>>> from math import cos, pi` <br>
+`>>> x = cos(2 * pi)` <br>
+`>>> print(x)` <br>
+
+This pattern can be very convenient, but in large programs that include many
+modules it is often a good idea to keep the symbols from each module in their
+own namespaces, by using the **<span style="color:blue">import math</span>**  pattern. This would elminate
+potentially confusing problems with name space collisions.

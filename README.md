@@ -94,4 +94,39 @@ Memory locations for storing data in list and tuples are indexed so one could ac
 `>>> print(num)` <br>
 2
 
+### Loops ( for and while ): "range & len" functions
+##### Use of the **range** function
 
+Prints out the elements of the list "z" <br>
+`>>> for i in z:` <br>
+`...     print(i)` <br>
+
+#### Range & Len functions
+`>>> range(4)` <br>
+`[0, 1, 2, 3]` <br>
+
+`>>> len(y)` ## From the list  y = ["Hey", "you", 5, 8.7] <br> 
+`4` <br>
+
+Prints out the lenght of the list "z" <br>
+`>>> len(z)` <br>
+`5`
+
+`>>> range(len(z))` <br>
+`[0, 1, 2, 3, 4]`
+
+
+    
+
+Combine range and len to use in for loops. The code below should print the elements of the [list z] to screen
+
+`>>> for i in range(len(z)):` <br>
+`...     print(z[i]) `
+
+##### While loop
+
+
+i = 0 <br>
+`>>> while i < 3`: <br>
+`...     i = i + 1` <br>
+`...     print(z[i])`<br>

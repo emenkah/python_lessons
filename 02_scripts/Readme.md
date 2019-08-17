@@ -1,2 +1,2 @@
-# Pythin lessons - CODATA-RDA 2019 - Scripts 
+# Python lessons - CODATA-RDA 2019 - Scripts 
 

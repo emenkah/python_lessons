@@ -181,3 +181,30 @@ This pattern can be very convenient, but in large programs that include many
 modules it is often a good idea to keep the symbols from each module in their
 own namespaces, by using the **<span style="color:blue">import math</span>**  pattern. This would elminate
 potentially confusing problems with name space collisions.
+
+
+### Numerical module "numpy" & plotting 
+
+Use of the if condition:  <br>
+
+`import numpy as np` <br>
+`>>> x = np.linspace(0,10, 10)` <br>
+
+`>>> print(x)` <br>
+
+`>>> print(" ")` <br>
+
+`>>> for i in range(len(x)):` <br>
+ `...   if x[i] > 4.5:` <br>
+ `...       print("First number greater than 4.5: ", x[i])` <br>
+ `...       break`
+
+
+### Plot
+
+`import matplotlib.pyplot as plt` <br>
+`plt.plot(x)` <br>
+`plt.savefig("myplot.png")` <br>
+`plt.show()` <br>
+
+

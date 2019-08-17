@@ -151,10 +151,8 @@ function : <br>
 
 `['__doc__', '__loader__', '__name__', '__package__', '__spec__', 'acos', 'acosh', 'asin', 'asinh', 'atan', 'atan2', 'atanh', 'ceil', 'copysign', 'cos', 'cosh', 'degrees', 'e', 'erf', 'erfc', 'exp', 'expm1', 'fabs', 'factorial', 'floor', 'fmod', 'frexp', 'fsum', 'gamma', 'gcd', 'hypot', 'inf', 'isclose', 'isfinite', 'isinf', 'isnan', 'ldexp', 'lgamma', 'log', 'log10', 'log1p', 'log2', 'modf', 'nan', 'pi', 'pow', 'radians', 'sin', 'sinh', 'sqrt', 'tan', 'tanh', 'trunc']`
 
-<br>
 #### Documentation: <br>
-You can also query look at the the module's documentations or a symbol's documentation using the `help`
-function : <br>
+You can also query look at the the module's documentations or a symbol's documentation using the `help` function : <br>
 `>>> help(math)` <br>
 `>>> help(math.log)` <br>
 
@@ -194,17 +192,32 @@ Use of the if condition:  <br>
 
 `>>> print(" ")` <br>
 
+**NB**: Please pay attention to the four(4) spaces indentation
+
 `>>> for i in range(len(x)):` <br>
- `...   if x[i] > 4.5:` <br>
- `...       print("First number greater than 4.5: ", x[i])` <br>
- `...       break`
+ >>`...   if x[i] > 4.5:    ` <br>
+ >>>>`...       print("First number greater than 4.5: ", x[i])` <br>
+ >>>>`...       break`
 
 
 ### Plot
 
 `import matplotlib.pyplot as plt` <br>
-`plt.plot(x)` <br>
-`plt.savefig("myplot.png")` <br>
-`plt.show()` <br>
 
+`plt.plot(x, marker='o', linestyle="dashed")` <br>
+`plt.xlabel("X axis")` <br>
+`plt.ylabel("Y Axis")`<br>
+`plt.title("A simple line graph") ` <br>
+`plt.legend("xx") ` <br>
+`plt.savefig("myplot.png") ` <br>
+`plt.show() ` <br>
+
+### Funtions
+
+**NB**: Please pay attention to the four(4) spaces indentation
+
+`>>> def my_square(x):` <br>
+>>`...    y = x** 2` <br>
+>>`...    print("Square route of", x, "is",y)` <br>
+>>`...    return y ` <br>
 

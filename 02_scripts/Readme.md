@@ -6,4 +6,4 @@
 * Numerics formating
 
 
-[Simple Script] ( https://github.com/emenkah/python_lessons/tree/master/02_scripts/my_functions0.py" ) 
+[Simple Script](https://github.com/emenkah/python_lessons/tree/master/02_scripts/my_functions0.py) 

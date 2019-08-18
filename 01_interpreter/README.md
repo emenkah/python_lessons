@@ -200,7 +200,7 @@ Use of the if condition:  <br>
  >>>>`...       break`
 
 
-### Plot
+### Plotting with Matplotlib
 
 `import matplotlib.pyplot as plt` <br>
 

@@ -212,7 +212,7 @@ Use of the if condition:  <br>
 `plt.savefig("myplot.png") ` <br>
 `plt.show() ` <br>
 
-### Funtions
+### Functions
 
 **NB**: Please pay attention to the four(4) spaces indentation
 

@@ -200,7 +200,7 @@ Use of the if condition:  <br>
  >>>>`...       break`
 
 
-### Plot
+### Plotting with Matplotlib
 
 `import matplotlib.pyplot as plt` <br>
 
@@ -212,12 +212,12 @@ Use of the if condition:  <br>
 `plt.savefig("myplot.png") ` <br>
 `plt.show() ` <br>
 
-### Funtions
+### Functions
 
 **NB**: Please pay attention to the four(4) spaces indentation
 
 `>>> def my_square(x):` <br>
 >>`...    y = x** 2` <br>
->>`...    print("Square route of", x, "is",y)` <br>
+>>`...    print("Square of", x, "is",y)` <br>
 >>`...    return y ` <br>
 

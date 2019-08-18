@@ -21,18 +21,29 @@ https://www.anaconda.com/distribution/ and download the **installer** for your r
 
 
 ### On Anaconda: 
-Create an environment <br> 
-`conda create <envname>` <br> 
-Eg. <br>
-`conda create codata` <br>
+Create an environment  
 
-Connect to environment <br>
- <br>
-`conda activate codata` <br>
+```bash
+conda create <envname>
+Eg.
+conda create codata 
+```
 
-Install packages in your environment <br>
-`conda install <package>` <br> 
+Connect to environment 
+```bash
+conda activate codata 
+```
 
-Eg. <br>
-`conda install matplotlib`
+Installing packages into an environment <br>
+```bash
+conda install <package> 
+Eg.
+conda install matplotlib
+```
+
+Deactivate/disconnect from present working environment:
+
+```bash
+conda deactivate
+```
 

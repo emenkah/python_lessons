@@ -218,6 +218,6 @@ Use of the if condition:  <br>
 
 `>>> def my_square(x):` <br>
 >>`...    y = x** 2` <br>
->>`...    print("Square route of", x, "is",y)` <br>
+>>`...    print("Square of", x, "is",y)` <br>
 >>`...    return y ` <br>
 

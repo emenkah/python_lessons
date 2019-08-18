@@ -6,7 +6,8 @@
 Elliot S. Menkah (elliotsmenkah@gmail.com) <br>
 
     
-<a href="https://github.com/emenkah/python_lessons/tree/master/01_interpreter/README.md"> Lesson1 </a> <br>
+<a href="https://github.com/emenkah/python_lessons/tree/master/01_interpreter/README.md"> Lesson 1 - Basics of python in the intepreter </a> <br>
+<a href="https://github.com/emenkah/python_lessons/tree/master/02_scripts/Readme.md"> Lesson 2 - Python scripts </a> <br>
 
 
 

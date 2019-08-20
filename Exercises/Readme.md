@@ -21,3 +21,12 @@ for i = 1 --> length(l)
 ```
 
 Test it sorting the `sort_this.txt` file.
+
+## Exercise 3
+
+You can improve you python by solving the Euler problems with python.
+- have fun with Project Euler https://projecteuler.net/problems
+  - 1, 2, 3, 14, 17 (dict), 57, 79, 102
+
+[Exercie 2 and 3 are borrowed from here](https://github.com/asartori86/python-intro)
+

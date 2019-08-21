@@ -20,13 +20,13 @@ for i = 1 --> length(l)
 		j = j - 1
 ```
 
-Test it sorting the [`sort_this.txt file`](https://github.com/emenkah/python_lessons/blob/master/Exercises/sort_this.txt)
+Test it by using your program to sort the `sort_this.txt` [file](https://github.com/emenkah/python_lessons/blob/master/Exercises/sort_this.txt)
 
 ## Exercise 3
 
-You can improve you python by solving the Euler problems with python.
+You can improve your python skills by solving the Euler problems with the python programming language.
 - have fun with Project Euler https://projecteuler.net/problems
   - 1, 2, 3, 14, 17 (dict), 57, 79, 102
 
-[Exercie 2 and 3 are borrowed from here](https://github.com/asartori86/python-intro)
+Exercie 2 and 3 are borrowed from [here](https://github.com/asartori86/python-intro)
 

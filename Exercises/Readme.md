@@ -20,7 +20,7 @@ for i = 1 --> length(l)
 		j = j - 1
 ```
 
-Test it sorting the `sort_this.txt` file.
+Test it sorting the [`sort_this.txt file`](https://github.com/emenkah/python_lessons/blob/master/Exercises/sort_this.txt)
 
 ## Exercise 3
 

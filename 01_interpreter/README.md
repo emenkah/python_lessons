@@ -23,7 +23,8 @@ You can close the intepreter or leave the python environemt by the `exit` comman
 <!--`>>> print('Holla Mundo')` -->
 <br>
 <br>
-`>>> print("We're here")` # Rather use <span style="color:blue">double outer quotes</span>  over single outter quotes <br>
+# Rather use <span style="color:blue">double outer quotes</span>  over single outter quotes <br>
+`>>> print("We're here")` 
 `We're here` <br>
 `>>> print('We\'e here')` # <span style="color:red">Avoid complications</span>. <br>
 `We're here` <br>

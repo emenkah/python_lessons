@@ -24,7 +24,7 @@ You can close the intepreter or leave the python environemt by the `exit` comman
 <br>
 <br>
 # Rather use <span style="color:blue">double outer quotes</span>  over single outter quotes <br>
-`>>> print("We're here")` 
+`>>> print("We're here")` <br>
 `We're here` <br>
 `>>> print('We\'e here')` # <span style="color:red">Avoid complications</span>. <br>
 `We're here` <br>
